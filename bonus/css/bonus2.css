@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #071b32;
+}
+
+header {
+  background: #fff;
+  margin-bottom: 40px;
+}
+
+#logo {
+  height: 80px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo img {
+  height: 100%;
+}
+
+#titolo {
+  height: 40px;
+  padding: 2px;
+  background: #2b94d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#titolo img {
+  height: 100%;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.top {
+  background: #ddd;
+  margin-bottom: 4px;
+  padding: 12px;
+
+}
+
+.add {
+  height: 32px;
+  padding: 0 15px;
+  font-size: 13px;
+  font-weight: 800;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.task-butt {
+  background: #8dcd63;
+  color: #fff;
+  margin-right: 6px;
+  border: 2px solid #8dcd63;
+}
+
+.section-butt {
+  background: #ddd;
+  color: #999;
+  border: 1px solid #999;
+}
+
+.task {
+  padding: 10px 40px 50px;
+  background: #fff;
+  border-radius: 0 0 20px 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-list h3 {
+  color: #071b32;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.main-list ul li {
+  line-height: 1.75;
+  font-weight: 400;
+  color: #071b32;
+}
+
+.tag {
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 11px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.tblue {
+  background: #47adf1;
+  color: #fff;
+}
+
+.tblue {
+  background: #47adf1;
+  color: #fff;
+}
+
+.tpurple {
+  background: #9c72e4;
+  color: #fff;
+}
+
+.tgreen {
+  background: #64c0a9;
+  color: #fff;
+}
+
+.torange {
+  background: #f29e33;
+  color: #fff;
+}
+
+.tpink {
+  background: #d863a1;
+  color: #fff;
+}
+
+.tlime {
+  background: #b0c926;
+  color: #fff;
+}
+
+.valido::before {
+  content: '●';
+  color: #8dcd63;
+  font-size: 23px;
+  margin: 0 12px 0 10px;
+  display: inline-block;
+}
+
+.errato::before {
+  content: '●';
+  color: #b3183c;
+  font-size: 23px;
+  margin: 0 12px 0 10px;
+  display: inline-block;
+}
+
+h3::before {
+  content: '\25be';
+  color: #2b94d9;
+  font-size: 32px;
+  margin: 0 5px 0 3px;
+  vertical-align: middle;
+}
+
+footer {
+  height: 32px;
+  border-top: 1px solid #8dcd63;
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+  line-height: 32px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8dcd63;
+}
+
+footer a:hover {
+  color: #2b94d9;
+}
+
+footer a:active {
+  color: #fff;
+}
+
+footer a:checked {
+  color: #2b94d9;
+}

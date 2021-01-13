@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #071b32;
+}
+
+header {
+  background: #fff;
+  margin-bottom: 70px;
+}
+
+#logo {
+  height: 100px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo img {
+  height: 100%;
+}
+
+#titolo {
+  height: 50px;
+  padding: 10px;
+  background: #8dcd63;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 28px;
+}
+
+main {
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.top {
+  background: #8dcd63;
+  border-bottom: 3px solid #071b32;
+  padding: 10px 60px;
+
+}
+
+.add {
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.task-butt {
+  background: #2b94d9;
+  color: #fff;
+  border: 1px solid  #2b94d9;
+}
+
+.section-butt {
+  background: #8dcd63;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.task {
+  padding: 10px 60px 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-list h3 {
+  color: #071b32;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.main-list ul li {
+  line-height: 2.25;
+  font-weight: 400;
+  color: #071b32;
+}
+
+.tag {
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 11px;
+}
+
+.tblue {
+  background: #47adf1;
+  color: #fff;
+}
+
+.tblue {
+  background: #47adf1;
+  color: #fff;
+}
+
+.tpurple {
+  background: #9c72e4;
+  color: #fff;
+}
+
+.tgreen {
+  background: #64c0a9;
+  color: #fff;
+}
+
+.torange {
+  background: #f29e33;
+  color: #fff;
+}
+
+.tpink {
+  background: #d863a1;
+  color: #fff;
+}
+
+.tlime {
+  background: #b0c926;
+  color: #fff;
+}
+
+.valido::before {
+  content: '👌';
+  height: 15px;
+  width: 15px;
+  margin-right: 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.errato::before {
+  content: '👎';
+  height: 15px;
+  width: 15px;
+  margin-right: 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+h3::before {
+  content: '\25be';
+  color: #8dcd63;
+  font-size: 28px;
+  margin: 0 5px 0 0;
+  vertical-align: middle;
+}

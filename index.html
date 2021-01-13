@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Toboolist - Esercizio 12 Gennaio</title>
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="img/logo.png" alt="logo boolean">
+      <span class="titolo">Toboolist</span>
+    </header>
+    <main>
+      <section class="top">
+        <button type="button" name="addtask" class="add task-butt">Add Task</button>
+        <button type="button" name="addsection" class="add section-butt">Add Section</button>
+      </section>
+      <section class="task">
+        <ul class="main-list">
+          <li>
+            <h3>New Task</h3>
+            <ul>
+              <li class="valido">Quarterly Newsletter  <span class="tag tblue">Editorial</span></li>
+            </ul>
+          </li>
+          <li>
+            <h3>Today</h3>
+            <ul>
+              <li class="valido">Recruiting blog post  <span class="tag tblue">Editorial</span></li>
+              <li class="valido">Mobile app launch  <span class="tag tpurple">Q1 Goals</span></li>
+              <li class="errato">Interview John H.  <span class="tag tgreen">Recruiting</span></li>
+              <li class="valido">Summit update to mobile storefonts  <span class="tag torange">Mobile</span></li>
+            </ul>
+          </li>
+          <li>
+            <h3>Upcoming</h3>
+            <ul>
+              <li class="errato">Schedule meeting with Alex</li>
+              <li class="valido">Homepage refresh  <span class="tag tpink">Website</span></li>
+              <li class="valido">Onboard new Sales team members  <span class="tag tlime">Sales</span></li>
+              <li class="valido">Summit update to mobile storefonts  <span class="tag tblue">Editorial</span></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+    <h2>Contact us</h2>
+    <form>
+      <div class="full_name">
+        <div class="first_name">
+          <label for="first_name">First name</label>
+          <input type="text" id="first_name" size="40" name="first_name" maxlength="40" required>
+        </div>
+        <div class="last_name">
+          <label for="last_name">Last name</label>
+          <input type="text" id="last_name" size="40" name="last_name" maxlength="40" required>
+        </div>
+      </div>
+      <div class="mail">
+        <label for="mail">E-mail</label>
+        <input type="email" id="mail" required>
+      </div>
+      <div class="message">
+        <label for="message">Message</label>
+        <textarea name="message" rows="8" cols="60"></textarea>
+      </div>
+      <div class="check">
+        <input type="checkbox" id="check" name="check_policy" value="check_policy" required>
+        <label for="check">I agree to the <a href="#" target="_blank">Privacy Policy</a></label>
+      </div>
+      <div class="button-cont">
+        <input type="submit" value="send">
+      </div>
+    </form>
+    </footer>
+  </body>
+</html>
